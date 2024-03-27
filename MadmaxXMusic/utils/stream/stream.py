@@ -60,7 +60,7 @@ async def stream(
                     f"vid_{vidid}",
                     title,
                     duration_min,
-                    user_name,
+                    message.from_user.mention,
                     vidid,
                     user_id,
                     "video" if video else "audio",
